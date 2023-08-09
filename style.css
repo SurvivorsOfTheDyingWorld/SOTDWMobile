@@ -131,6 +131,12 @@ color: pink;
     text-align: center;
 }
 
+.During p{
+    font-family: monospace;
+    text-align: justify;
+    margin: 2%;
+}
+
 
 .James{
     flex-basis: 50%;
@@ -144,6 +150,20 @@ color: pink;
     width: 50%;
     display:block;
 }
+
+.Lab{
+    flex-basis: 50%;
+/*    margin-bottom: 300px;*/
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-size: 10px;
+}
+.Lab img{
+    width: 40%;
+    display:block;
+}
+
 
 .Infoclass{
     margin: 1%;
