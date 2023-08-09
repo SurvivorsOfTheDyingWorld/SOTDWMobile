@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.header{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/SurvivorBG.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.bobo{
+    flex: 1;
+    text-align: right;  
+}
+.bobo ul li{
+    list-style: none;
+    display: inline-block;
+    padding:8px 12px;
+    position: relative;
+}
+.bobo ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 20px;
+    font-size: 15px;
+    color: #fff;
+}
+
+a{
+color: pink;
+}
+
+.footer{
+    min-height: 20vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/SurvivorBG.jpg);
+    width: 100%;
+    color: darkgrey;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+.fab {
+    color:white;
+    font-size: 20px;
+}
+
+.Survivors{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/SurvivorBG.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.Two-Page{
+    min-height: 40vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/SurvivorBG.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.Two-Page li{
+    text-align: justify;
+}
+
+.Srow{
+    margin: 1%;
+    display:flex;
+    justify-content:center;
+}
+
+.Srow a{
+    color:beige;
+}
+
+.Survivors h1{
+    color: #fff;
+    text-align: center;
+}
+.Survivors h2{
+    color: #fff;
+    text-align: center;
+}
+.Survivors h4{
+    color: #fff;
+    text-align: center;
+}
+
+.Survivors h5{
+    color: #fff;
+    text-align: center;
+}
+
+.Survivors p{
+    color: #fff;
+    text-align: center;
+    font-family: serif;
+    font-size: 7px;
+    text-align: center;
+}
+
+
+.James{
+    flex-basis: 50%;
+/*    margin-bottom: 300px;*/
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-size: 10px;
+}
+.James img{
+    width: 50%;
+    display:block;
+}
+
+.Infoclass{
+    margin: 1%;
+    display:flex;
+    justify-content:left;
+}
+
+.Solorow{
+    margin: 3%;
+    display:flex;
+}
+
+.title{
+    display: grid;
+    margin: 3%;
+}
+
+.title h4{
+    text-align: center;
+}
+
+.title h5{
+    font-weight: 100;
+    color:whitesmoke;
+    font-size: 7px;
+    font-family:monospace;
+    text-align: justify;
+    
+}
+
+.title q{
+    font-weight: 100;
+    color:whitesmoke;
+    font-size: 7px;
+    font-family:monospace;
+    text-align: center;
+    
+}
+
+
+.Infobox {
+    width:100px;
+    background: #ffdcd1;
+    padding: 5px 5px;
+    box-sizing:border-box;
+}
+
+.Infobox pre{
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+}
+
+.Infobox h6{
+    font-weight: lighter;
+    color: black;
+    text-align: center;
+    font-size: 8px;
+}
+
+.Infobox p2{
+    color: black;
+    text-align: center;
+    font-size: 6px;
+}
+
+.Infobox img{
+    width:100%;
+}
+
+.CharPic {
+    display:flex;
+    width: 50%;
+    text-align: center;
+    font-size: 8px;
+
+}
+
+.JamesV {
+    width: 50%;
+}
+
+.NickV {
+    width: 50%;
+}
+
+.summary p{
+    color: whitesmoke;
+    font-size: 7px;
+    font-family: monospace;
+    font-weight: 300;
+    line-height: 10px;
+    text-align: justify;
+    margin: 5%;
+}
+
+.Location{
+    display:flex;
+    width: 100%;
+    text-align: center;
+    font-size: 8px;
+}
+.Location img{
+    width: 25%;
+}
+
+.Second-Page p{
+    color: whitesmoke;
+    font-size: 10px;
+    text-align: center;
+}
+
+.lee {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 10px;
+}
