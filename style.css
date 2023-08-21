@@ -74,7 +74,7 @@ color: pink;
 }
 
 .Survivors{
-    min-height: 120vh;
+    min-height: 155vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/SurvivorBG.jpg);
     background-position: center;
@@ -250,6 +250,11 @@ color: pink;
 .NickV {
     width: 50%;
 }
+
+.AntonV {
+    width: 50%;
+}
+
 
 .summary p{
     color: whitesmoke;
