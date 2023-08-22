@@ -47,6 +47,7 @@ img{
 }
 .text-box h1{
     font-size: 62px;
+    margin-top: 30px;
 }
 .text-box p{
     margin: 10px 0 20px;
@@ -74,6 +75,15 @@ color: hotpink;
 }
 
 .Survivors{
+    min-height: 170vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/SurvivorBG.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.Volume{
     min-height: 170vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/SurvivorBG.jpg);
@@ -131,6 +141,56 @@ color: hotpink;
     text-align: center;
 }
 
+.Volume h1{
+    color: #fff;
+    text-align: center;
+}
+.Volume h2{
+    color: #fff;
+    text-align: center;
+}
+
+.Volume h3{
+    color: #fff;
+    text-align: center;
+}
+.Volume h4{
+    color: #fff;
+    text-align: left;
+    margin: 4%;
+}
+
+.Volume h5{
+    font-weight: 100;
+    color:whitesmoke;
+    font-size: 7px;
+    font-family:monospace;
+    text-align: justify;
+    margin: 4%;
+}
+
+.Volume p{
+    color: #fff;
+    text-align: justify;
+    font-family: monospace;
+    font-size: 7px;
+    margin: 4%;
+}
+
+.Volume p{
+    color: #fff;
+    text-align: justify;
+    font-family: monospace;
+    font-size: 7px;
+    margin: 4%;
+}
+
+.Volume li{
+    color:#fff;
+    font-size: 8px;
+    margin-left: 15px;
+}
+
 .During p{
     font-family: monospace;
     text-align: justify;
@@ -164,6 +224,19 @@ color: hotpink;
     display:block;
 }
 
+.Cover{
+    flex-basis: 50%;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-size: 10px;
+}
+.Cover img{
+    width: 70%;
+    display:block;
+}
+
 
 .Infoclass{
     margin: 1%;
@@ -179,6 +252,10 @@ color: hotpink;
 .title{
     display: grid;
     margin: 3%;
+}
+
+.title h3{
+    color: white;
 }
 
 .title h4{
@@ -200,6 +277,53 @@ color: hotpink;
     font-size: 7px;
     font-family:monospace;
     text-align: center;
+    
+}
+
+.vtitle{
+   
+    margin: 3%;
+}
+
+.vtitle h2{
+    color: white;
+    text-align: left;
+    font-size: 15px;
+}
+
+.vtitle h3{
+    color: white;
+    text-align: center;
+}
+
+.vtitle h4{
+    text-align: center;
+}
+
+.vtitle h5{
+    font-weight: 100;
+    color:whitesmoke;
+    font-size: 7px;
+    font-family:monospace;
+    text-align: justify;
+    margin: 3%;
+
+    
+}
+
+.vtitle q{
+    font-weight: 100;
+    color:whitesmoke;
+    font-size: 6px;
+    font-family:monospace;
+    text-align: center;
+    display: grid;
+}
+
+.vtitle li{
+
+color: white;
+    font-size: 8px;
     
 }
 
